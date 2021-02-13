@@ -17,4 +17,15 @@ fn main() {
     let figure = standard_font.convert("infatuAI Cyber");
     println!("{}", figure.unwrap());
 
+    let main_device = Device::lookup().unwrap();
+    println!("\t* Using device {:?}", main_device);
+
+    let mut cap = Capture::from_device(main_device).unwrap()
+    .promisc(true)
+    .open().unwrap();
+
+    while let Ok(packet) = cap.next() {
+        println!("received packet! {:?}", packet);
+    }
+
 }

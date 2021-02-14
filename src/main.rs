@@ -9,7 +9,8 @@ use figlet_rs::{FIGfont};
 fn main() {
 
     let devices = Device::list();
-    if let device = devices {
+    {
+        let device = devices;
         println!("\t* Device found {:?}", device);
     }
 

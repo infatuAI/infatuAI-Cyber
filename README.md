@@ -1,4 +1,4 @@
-# infatuAI Cyber
+# QALB Cyber
 
 Packet capture for Linux/Mac/Windows.
 

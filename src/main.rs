@@ -15,7 +15,7 @@ fn main() {
     }
 
     let standard_font = FIGfont::standand().unwrap();
-    let figure = standard_font.convert("infatuAI Cyber");
+    let figure = standard_font.convert("QALB Cyber");
     println!("{}", figure.unwrap());
 
     let main_device = Device::lookup().unwrap();

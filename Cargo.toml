@@ -1,5 +1,5 @@
 [package]
-name = "infatuai-cyber"
+name = "qalb-cyber"
 version = "0.1.0"
 authors = ["Andrew Potter <hello@drewpotter.com>"]
 edition = "2018"

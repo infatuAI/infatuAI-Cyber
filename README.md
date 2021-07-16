@@ -2,7 +2,7 @@
 
 Packet capture for Linux/Mac/Windows.
 
-Used in conjunction with infatuAI to analyse attacks using AI machine learning.
+Used in conjunction with QALB to analyse attacks using AI machine learning.
 
 
 ```
